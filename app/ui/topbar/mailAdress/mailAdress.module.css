@@ -2,4 +2,19 @@
   position: absolute;
   top: 0;
   left: 64px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(var(--textAlt), .25);
+  height: 48px;
+  padding: 0 4px;
+  border-radius: 24px;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  height: 40px;
+  border-radius: 20px;
 }

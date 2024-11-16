@@ -5,6 +5,10 @@
   --textAlt: #525366;
   --primary: #CC6161;
   --corner: 8px;
+
+  --headerHeight: 48px;
+
+  font-size: 16px;
 }
 
 html,
@@ -14,8 +18,8 @@ body {
 }
 
 body {
-  color: var(--text);
-  background: var(--bg);
+  color: var(--bg);
+  background: var(--text);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

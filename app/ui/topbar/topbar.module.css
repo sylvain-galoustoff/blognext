@@ -1,7 +1,7 @@
 #topbar {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  font-weight: 700;
 }
