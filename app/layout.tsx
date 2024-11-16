@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./ui/globals.css";
 import { Outfit } from "next/font/google";
+import Topbar from "./ui/topbar/Topbar";
+import Footer from "./ui/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Sylvain Galoustoff",
@@ -19,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={outfit.className}>{children}</body>
+      <body className={outfit.className}>
+        <Topbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
