@@ -4,4 +4,8 @@
   align-items: center;
   position: relative;
   font-weight: 700;
+  position: fixed;
+  top: 16px;
+  left: 0;
+  width: 100%;
 }
