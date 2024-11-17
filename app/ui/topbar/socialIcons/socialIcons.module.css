@@ -2,7 +2,8 @@
   position: absolute;
   top: 0;
   right: 64px;
-  background-color: rgba(var(--textAlt), .25);
+  background-color: var(--glassColor);
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: center;

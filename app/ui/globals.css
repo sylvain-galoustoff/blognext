@@ -5,10 +5,17 @@
   --textAlt: #525366;
   --primary: #CC6161;
   --corner: 8px;
+  --glassColor: rgba(43, 45, 66, .66);
 
   --headerHeight: 48px;
 
   font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
 html,
@@ -18,8 +25,8 @@ body {
 
 body {
   margin: 0;
-  background-color: var(--text);
-  color: var(--bg);
+  background-color: var(--bg);
+  color: var(--textAlt);
 }
 
 a {
