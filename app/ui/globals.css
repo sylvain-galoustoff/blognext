@@ -5,7 +5,7 @@
   --textAlt: #686B82;
   --primary: #D65757;
   --corner: 8px;
-  --glassColor: rgba(43, 45, 66, .66);
+  --glassColor: rgba(47, 50, 75, .66);
 
   --headerHeight: 48px;
 
@@ -24,7 +24,7 @@ p {
 
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {

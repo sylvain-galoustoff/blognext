@@ -1,0 +1,42 @@
+#focus {
+  display: flex;
+  justify-content: center;
+  padding: 64px;
+  background: linear-gradient(to bottom, var(--text) 30%, var(--bg) 30%);
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+}
+
+.card {
+  border-radius: var(--corner);
+  overflow: hidden;
+  background-color: var(--bgAlt);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .25);
+}
+
+.thumbnail {
+  position: relative;
+  height: 190px;
+}
+
+.thumbnail img {
+  object-fit: cover;
+}
+
+.title,
+.body {
+  padding: 0 16px;
+}
+
+.title {
+  color: var(--text);
+}
+
+.body {
+  padding-bottom: 16px;
+  line-height: 1.5;
+}
