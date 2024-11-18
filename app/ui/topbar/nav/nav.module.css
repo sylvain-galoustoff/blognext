@@ -26,6 +26,14 @@
   transition: all .25s ease-out;
 }
 
+#navbar li.active {
+  background-color: var(--primary);
+}
+
+#navbar li.active a:hover {
+  color: var(--bg);
+}
+
 #navbar a {
   transition: all .25s ease-out;
 }
