@@ -1,8 +1,16 @@
+"use client";
+
+import { redirect } from "next/navigation";
 import styles from "./page.module.css";
 import Avatar from "./ui/avatar/Avatar";
+import Button from "./ui/button/Button";
 import Separator from "./ui/separator/Separator";
 
 export default function Home() {
+  const handleButton = () => {
+    redirect("/contact");
+  };
+
   return (
     <div className={styles.page}>
       <header id={styles.header}>
@@ -28,6 +36,12 @@ export default function Home() {
             </p>
           </div>
           <Separator background="text" />
+          <Button
+            label="Travaillons ensemble"
+            variant="primary"
+            size="big"
+            onClick={handleButton}
+          />
         </div>
       </header>
       <section id={styles.focus}>focus cards</section>
