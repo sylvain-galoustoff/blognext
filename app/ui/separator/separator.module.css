@@ -1,0 +1,29 @@
+.separator {
+  height: 2px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask {
+  padding: 0 8px;
+}
+
+.square {
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+}
+
+.separator.text {
+  background-color: var(--bg);
+}
+
+.separator.text .mask {
+  background-color: var(--text);
+}
+
+.separator.text .square {
+  background-color: var(--bg);
+}

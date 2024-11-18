@@ -3,14 +3,9 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import styles from "./nav.module.css";
-import { useEffect } from "react";
 
 function Nav() {
   const pathname = usePathname();
-
-  useEffect(() => {
-    console.log(pathname);
-  });
 
   return (
     <nav id={styles.navbar}>

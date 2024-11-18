@@ -4,9 +4,44 @@
 }
 
 #header {
-  padding-top: 64px;
+  padding: 128px 64px 64px;
   background-color: var(--text);
   color: var(--bg);
+}
+
+#headerContent {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#resume {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  gap: 32px;
+}
+
+#resumeText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#name {
+  color: var(--bgAlt);
+  font-size: 1.25rem;
+}
+
+#job {
+  font-size: 2rem;
+}
+
+#slogan {
+  color: var(--primary);
+  font-size: 1.5rem;
 }
 
 #header,

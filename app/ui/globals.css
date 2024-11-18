@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0;
+}
+
 html,
 body {
   height: 100%;
@@ -32,4 +36,9 @@ body {
 a {
   color: var(--bg);
   text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  /* border: 1px solid red; */
 }
