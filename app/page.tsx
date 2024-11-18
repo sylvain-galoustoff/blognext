@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <header id={styles.header}>
-        <div className="container" id={styles.headerContent}>
+        <div id={styles.headerContent}>
           <div id={styles.resume}>
             <Avatar />
             <div id={styles.resumeText}>
@@ -16,7 +16,7 @@ export default function Home() {
             </div>
           </div>
           <Separator background="text" />
-          <div id={styles.introText}>
+          <div className={styles.container} id={styles.introText}>
             <p>
               Spécialisé dans la création d’interfaces web et mobiles modernes et
               réactives, je m’efforce de placer l’utilisateur au cœur de chaque projet.
@@ -28,7 +28,6 @@ export default function Home() {
             </p>
           </div>
           <Separator background="text" />
-          <div></div>
         </div>
       </header>
       <section id={styles.focus}>focus cards</section>

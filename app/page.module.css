@@ -9,6 +9,10 @@
   color: var(--bg);
 }
 
+.container {
+  max-width: 700px;
+}
+
 #headerContent {
   max-width: 1000px;
   display: flex;
@@ -42,6 +46,15 @@
 #slogan {
   color: var(--primary);
   font-size: 1.5rem;
+}
+
+#introText {
+  font-weight: 200;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 #header,
