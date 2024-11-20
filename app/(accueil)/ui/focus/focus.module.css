@@ -27,16 +27,17 @@
   object-fit: cover;
 }
 
-.title,
 .body {
-  padding: 0 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .title {
   color: var(--text);
 }
 
-.body {
-  padding-bottom: 16px;
+.content {
   line-height: 1.5;
 }
