@@ -1,11 +1,12 @@
 :root {
-  --bg: #EDF2F4;
-  --bgAlt: #F3F4F7;
+  --bg: #FFF;
+  --bgAlt: #FCFCFD;
   --text: #2F324B;
   --textAlt: #686B82;
   --primary: #D65757;
   --corner: 8px;
-  --glassColor: rgba(47, 50, 75, .66);
+  --glassColor: rgba(47, 50, 75, .33);
+  --glassBlur: blur(4px);
 
   --headerHeight: 48px;
 
@@ -18,6 +19,13 @@
   box-sizing: border-box;
 }
 
+h1,
+h2 {
+  color: var(--text);
+}
+
+h1,
+h2,
 p {
   margin: 0;
 }

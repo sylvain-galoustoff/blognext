@@ -1,7 +1,7 @@
 import styles from "./separator.module.css";
 
 type SeparatorProps = {
-  background: "text";
+  background: "text" | "bgAlt";
 };
 
 function Separator({ background }: SeparatorProps) {

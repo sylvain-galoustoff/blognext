@@ -3,7 +3,7 @@
   top: 0;
   right: 64px;
   background-color: var(--glassColor);
-  backdrop-filter: blur(10px);
+  backdrop-filter: var(--glassBlur);
   display: flex;
   align-items: center;
   justify-content: center;

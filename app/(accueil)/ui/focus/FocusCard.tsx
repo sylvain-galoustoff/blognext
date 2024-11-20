@@ -12,8 +12,10 @@ function FocusCard({ data }: FocusCardProps) {
       <div className={styles.thumbnail}>
         <Image src={`${data.img}.png`} alt={data.alt} fill={true} />
       </div>
-      <h2 className={styles.title}>{data.title}</h2>
-      <p className={styles.body}>{data.content}</p>
+      <div className={styles.body}>
+        <h2 className={styles.title}>{data.title}</h2>
+        <p className={styles.content}>{data.content}</p>
+      </div>
     </div>
   );
 }

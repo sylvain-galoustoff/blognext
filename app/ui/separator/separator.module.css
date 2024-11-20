@@ -27,3 +27,15 @@
 .separator.text .square {
   background-color: var(--bg);
 }
+
+.separator.bgAlt {
+  background-color: var(--text);
+}
+
+.separator.bgAlt .mask {
+  background-color: var(--bgAlt);
+}
+
+.separator.bgAlt .square {
+  background-color: var(--text);
+}
