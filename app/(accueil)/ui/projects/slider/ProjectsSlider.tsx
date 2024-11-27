@@ -22,9 +22,15 @@ function ProjectsSlider() {
         </div>
       </div>
       <div id={styles.counter}>
-        <IoCaretBack />
-        <span id={styles.number}>1</span>|<span id={styles.total}>3</span>
-        <IoCaretForward />
+        <IoCaretBack className={styles.arrow} />
+        <span className={styles.number} id={styles.current}>
+          88
+        </span>
+        |
+        <span className={styles.number} id={styles.total}>
+          88
+        </span>
+        <IoCaretForward className={styles.arrow} />
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 #slider {
-  border: 1px solid red;
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -17,6 +16,10 @@
   color: var(--text);
 }
 
+#description {
+  font-weight: 300;
+}
+
 #wrapper {
   width: 100%;
 }
@@ -28,4 +31,34 @@
 
 .thumbnail img {
   object-fit: contain;
+}
+
+#counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  font-size: 1.25rem;
+  color: var(--text);
+  cursor: pointer;
+  transition: all .25s ease-out;
+}
+
+.arrow:hover {
+  transform: scale(1.25);
+  color: var(--primary);
+}
+
+.number {
+  /* width: 20px; */
+  text-align: center;
+  width: 30px;
+  color: var(--text);
+}
+
+#current {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
