@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./slider.module.css";
 import { useEffect, useState } from "react";
+import ButtonLink from "@/app/ui/button/ButtonLink";
 
 type SlideProps = {
   data: ProjectType;
@@ -36,6 +37,13 @@ function Slide({ data, currentIndex }: SlideProps) {
       <div className={styles.thumbnail}>
         <Image src={`/thumbnails/${data.thumbnail}`} alt="alt text" fill={true} />
       </div>
+      <ButtonLink
+        variant="primary"
+        label="Voir le site"
+        size="small"
+        href={data.link}
+        target="_blank"
+      />
     </div>
   );
 }

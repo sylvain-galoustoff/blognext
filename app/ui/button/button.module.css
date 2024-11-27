@@ -1,4 +1,5 @@
-.button {
+.button,
+a.button {
   font-family: "Outfit", sans-serif;
   background-color: var(--bg);
   color: var(--primary);
@@ -25,12 +26,14 @@
   font-size: .8rem;
 }
 
-.primary {
+.primary,
+a.button.primary {
   background-color: var(--primary);
   color: var(--bg);
 }
 
-.primary:hover {
+.primary:hover,
+a.button.primary:hover {
   background-color: var(--primary);
   color: var(--bg);
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, .5);
