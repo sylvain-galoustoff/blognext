@@ -32,8 +32,8 @@ function ProjectsSlider() {
   return (
     <div id={styles.slider}>
       <div id={styles.header}>
-        <h3 id={styles.title}>Slide title</h3>
-        <p id={styles.description}>Slogan ou description</p>
+        <h3 id={styles.title}>{projects[slideIndex].name}</h3>
+        <p id={styles.description}>{projects[slideIndex].description}</p>
       </div>
       <div id={styles.window}>
         <div
@@ -46,11 +46,11 @@ function ProjectsSlider() {
       <div id={styles.counter}>
         <IoCaretBack className={styles.arrow} onClick={() => changeSlide("previous")} />
         <span className={styles.number} id={styles.current}>
-          88
+          {slideIndex + 1}
         </span>
         |
         <span className={styles.number} id={styles.total}>
-          88
+          {projects.length}
         </span>
         <IoCaretForward className={styles.arrow} onClick={() => changeSlide("next")} />
       </div>
