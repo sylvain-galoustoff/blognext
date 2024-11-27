@@ -1,5 +1,5 @@
 #slider {
-  width: 1000px;
+  width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,8 +20,21 @@
   font-weight: 300;
 }
 
+#window {
+  width: 300px;
+}
+
 #wrapper {
-  width: 100%;
+  width: 300%;
+  display: flex;
+  align-items: center;
+  transition: all .25s ease-out;
+}
+
+.slide {
+  width: 33.333%;
+  transition: all .25s ease-out;
+  transform: trans;
 }
 
 .thumbnail {
@@ -52,10 +65,10 @@
 }
 
 .number {
-  /* width: 20px; */
   text-align: center;
   width: 30px;
   color: var(--text);
+  user-select: none;
 }
 
 #current {

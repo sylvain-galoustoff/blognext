@@ -5,6 +5,7 @@
   position: relative;
   font-weight: 700;
   position: fixed;
+  z-index: 100;
   top: 16px;
   left: 0;
   width: 100%;
