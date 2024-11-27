@@ -24,3 +24,27 @@ export const focus = [
       "Mon code est propre, accessible et optimisé pour renforcer votre visibilité sur le web.",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    name: "my express driver",
+    description: "convoyage de vehicules",
+    link: "https://myexpressdriver.com/",
+    thumbnail: "laptop-myexpressdriver.png",
+  },
+  {
+    id: 2,
+    name: "sylvain galoustoff",
+    description: "vous êtes sur ce site",
+    link: "https://sylvain-galoustoff.dev/home",
+    thumbnail: "laptop-blog.png",
+  },
+  {
+    id: 3,
+    name: "smart home control",
+    description: "démo technique : drag and drop React",
+    link: "https://demo.sylvain-galoustoff.dev/widgets/",
+    thumbnail: "laptop-smart-home-control.png",
+  },
+];
